@@ -1,0 +1,252 @@
+@font-face 
+{	
+	font-family: "Helvetica LT Std";
+    src: url('HelveticaLTStd-Roman.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+	
+}
+
+html{background-color: #cbe5fe;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+	  }
+	    
+	  .navbar img {
+		width: 90px;
+		padding: 15px 50px;
+	  }
+	  
+	  nav ul {
+		list-style: none;
+		padding: 20;
+		margin: 0;
+		margin-right: 400px;
+		
+	  }
+	  
+	  nav {
+		float: right;
+		margin: 0;
+	  }
+	  
+	  li {
+		display: inline;
+		padding: 15px;
+	  }
+	  
+	  nav a {
+		text-decoration: none;
+		font-size: 12pt;
+		color: #607a91;
+		display: inline-block;
+		padding-top: 40px;
+	  }
+	  
+	  nav a:hover {
+		color: #000000;
+	  }
+	  
+	  nav a:active {
+		font-weight: bold;
+		color: #000000;
+	  }
+	  
+	  @media screen and (max-width: 700px) {
+		nav {
+		  width: 100%;
+		}
+	  }
+	  
+	.headline {
+		margin: 0;
+		position: absolute;
+		left: 500px;
+		top: 90px
+		font-size: 15pt;
+		color: #000000;
+	}
+
+	.headline2 {
+		margin: 0;
+		position: absolute;
+		left: 615px;
+		top: 50%
+		font-size: 15pt;
+		color: #2f495e0;
+	}
+	
+	.fließtext {
+		margin: 0;
+		position: absolute;
+		left: 500px;
+		top: 25%;
+		font-size: 12pt;
+		color: #2f495e;
+	}
+
+
+
+
+
+	.eissorten {
+		display: flex;
+		flex-direction: row;
+		padding: 20px;
+		gap: 100px;
+		color: #2f495e;
+		margin-top: 60px;
+		margin-left: 150px;
+		max-width: 300px;
+	}
+
+	.button {
+		background-color: #2f495e;
+		color: #cbe5fe;
+		font-size: 18px;
+		text-decoration: none;
+		padding: 14px 15px;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;		
+		margin-top: 80px;
+		margin-left: 615px;
+		margin-bottom: 150px;
+	  }
+
+
+
+	.button:hover {
+		color: #cbe5fe;
+		background-color: #152029;
+		font-size: 18px;
+		font-weight: bold;
+	  }
+
+	
+	.headline_formular {
+		margin: 0;
+		position: absolute;
+		left: 550px;
+		top: 50%
+		font-size: 12pt;
+		color: #2f495e0;
+	}
+
+	.formular {
+		margin: 0;
+		margin-left: 550px;
+		margin-bottom: 200px;
+		margin-top: 150px		
+	  }
+
+  
+
+	.headline3 {
+		margin: 0;
+		position: absolute;
+		left: 600px;
+		top: 50%
+		font-size: 15pt;
+		color: #2f495e0;
+	}
+
+	.oeffnungszeiten01 {
+		margin-left: 600px;
+		margin-top: 100px;
+		position: absolute;
+		width: 21rem;
+		padding: 0.5rem;
+		background-color: #2f495e;
+		color: #cbe5fe;
+	}
+
+	.oeffnungszeiten01 p {
+		display: flex;
+		justify-content: space-between;
+		margin: 0.3rem 0;
+	}
+
+	.öffnungszeiten_orte {
+		margin-left: 600px;
+		margin-top: 350px;
+		position: absolute;
+		width: 21rem;
+		padding: 0.5rem;
+		background-color: #2f495e;
+		color: #cbe5fe;
+	}
+
+	.öffnungszeiten_orte p {
+		display: flex;
+		justify-content: space-between;
+		margin: 0.3rem 0;
+	}
+
+	  .headline_standort {
+		margin: 0;
+		position: absolute;
+		left: 615px;
+		top: 50px
+		font-size: 12pt;
+		color: #000000;
+	}
+
+	  .fließtext_standort {
+		margin: 0;
+		margin-left: 615px;
+		margin-top: 5%;
+		font-size: 12pt;
+		color: #2f495e;
+	}
+
+	.standorte {
+		display: flex;
+		flex-direction: row;
+		padding: 20px;
+		gap: 100px;
+		color: #2f495e;
+		margin-top: 60px;
+		margin-left: 150px;
+		max-width: 300px;
+		margin-bottom: 150px;
+	}
+
+
+.headline_über_uns {
+		margin: 0;
+		position: absolute;
+		left: 900px;
+		top: 50px
+		font-size: 12pt;
+		color: #000000;
+	}
+
+	.über_uns {
+		margin: 0;
+		position: absolute;
+		left: 900px;
+		top: 25%;
+		font-size: 12pt;
+		color: #2f495e;
+	}
+
+	footer {
+		background-color: #2f495e;
+		padding: 50px;
+		text-align: center;
+	  }
+
+	  .impressum {
+		color: #cbe5fe;
+		font-size: 14px;
+
+	  }
+	  
+	  .impressum p {
+		margin: 8px 0;
+	  }

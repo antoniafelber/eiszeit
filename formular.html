@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+	<title>eissorten</title>
+    <link rel="stylesheet" href="food_truck.css" />
+</head>
+
+<body>
+
+<div class="navbar">
+<img src="bilder/logo.png" alt="logo" height= 90px width= 90px>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a><li>
+        <li><a href="eissorten.html">Eissorten</a><li>
+        <li><a href="öffnungszeiten.html">Öffnungszeiten</a><li>
+        <li><a href="tourplan.html">Tourplan</a><li>
+        <li><a href="über_uns.html">Über uns</a></li>
+    </ul>    
+</nav>
+</div>
+
+<h1 class="headline_formular">Bestellen Sie ihr Lieblingseis vor!</h1>
+
+
+<form action="submit.php" method="post">
+    <div class="formular">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="datum">Datum:</label>
+    <input type="datum" id="datum" name="datum" required><br><br>
+
+    <label for="product">Eissorte:</label>
+    <select id="product" name="product" required>
+      <option value="">Bitte wählen</option>
+      <option value="Produkt 1">Vanille</option>
+      <option value="Produkt 2">Heidelbeere</option>
+      <option value="Produkt 3">Haselnuss</option>
+      <option value="Produkt 4">Erdbeere</option>
+      <option value="Produkt 5">Pistazie</option>
+      <option value="Produkt 6">Schokolade</option>
+    </select><br><br>
+
+    <label for="standort">Standort:</label>
+    <select id="standort" name="standort" required>
+      <option value="">Bitte wählen</option>
+      <option value="standort 1">Luisenpark</option>
+      <option value="standort 2">Maimarkt</option>
+      <option value="standort 3">Lindenhof</option>
+    </select><br><br>
+
+    <label for="quantity">Menge:</label>
+    <input type="number" id="quantity" name="quantity" required><br><br>
+
+    <label for="comments">Kommentar:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Bestellen">
+    </div>
+</form>
+
+    
+
+<footer>
+    <div class="impressum">
+     <p>Impressum</p>
+     <p>Antonia Felber</p>
+     <p>3006172</p>
+     <p>Hochschule Mannheim</p>
+    </div>
+</footer>
+
+</body>
